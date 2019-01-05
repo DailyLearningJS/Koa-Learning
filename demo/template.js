@@ -4,7 +4,7 @@ const app = new Koa()
 
 app.use(ctx => {
     ctx.response.type = 'html'
-    ctx.response.body = fs.createReadStream('./index.html')
+    ctx.response.body = fs.createReadStream('./template.html')
 })
 
 app.listen(3000)
