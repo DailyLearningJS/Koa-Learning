@@ -1,0 +1,37 @@
+{
+  "name": "koa-learning",
+  "version": "1.0.0",
+  "description": "Koa学习代码",
+  "main": "index.js",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "fs.promised": "^3.0.0",
+    "koa": "^2.7.0",
+    "koa-body": "^4.0.6",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "koa-route": "^3.2.0",
+    "koa-static": "^5.0.0",
+    "koa2": "^2.0.0-alpha.7",
+    "koa-views": "^6.1.5"
+  },
+  "devDependencies": {
+    "axios": "^0.19.0",
+    "cheerio": "^1.0.0-rc.3",
+    "nodemailer": "^6.2.1",
+    "superagent": "^5.0.8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DailyLearningJS/Koa-Learning.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DailyLearningJS/Koa-Learning/issues"
+  },
+  "homepage": "https://github.com/DailyLearningJS/Koa-Learning#readme"
+}
